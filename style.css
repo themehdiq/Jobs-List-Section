@@ -1,0 +1,47 @@
+/* START GLOBAL RULES */
+:root {
+    --blue-color: #2980b9;
+    --green-color: #7fb13d;
+    --purple-color: #8e44ad;
+    --sky-blue-color: #3498db;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f6f9;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 700px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 900px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1100px;
+    }
+}
+
+/* END GLOBAL RULES */
+.jobs-list {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
