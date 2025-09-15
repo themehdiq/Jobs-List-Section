@@ -14,6 +14,7 @@
 
 body {
     background-color: #f3f6f9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -44,4 +45,32 @@ body {
 .jobs-list {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.jobs-list .heading-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.jobs-list .heading-text h1 {
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.jobs-list .heading-text h1::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: var(--blue-color);
+    transform: translate(-50%, 25px);
+}
+
+.jobs-list .heading-text p {
+    color: #8b8b8b;
+    line-height: 1.7;
 }
