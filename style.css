@@ -122,6 +122,8 @@ body {
     background-color: #dcdcdcb0;
     padding: 3px;
     border-radius: 4px;
+    /* <- prevents collapsing */
+    flex-shrink: 0;
 }
 
 .jobs-list .jobs-box .job-item .job-image img {
