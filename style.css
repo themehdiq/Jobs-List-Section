@@ -162,8 +162,6 @@ body {
     margin-bottom: 5px;
 }
 
-.jobs-list .jobs-box .job-item .job-infos .job-metadata {}
-
 .jobs-list .jobs-box .job-item .job-infos .job-metadata span {
     font-size: 12px;
     color: #a0a0a0;
@@ -217,7 +215,7 @@ body {
 .jobs-list .jobs-box .job-item .job-pricing a {
     display: block;
     text-decoration: none;
-    padding: 3px 35px;
+    padding: 4px 35px;
     background-color: var(--blue-color);
     color: white;
     font-size: 12px;
